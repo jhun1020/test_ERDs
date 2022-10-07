@@ -43,11 +43,11 @@
   "table": {
     "tables": [
       {
-        "name": "영화 이름과 장르",
+        "name": "MOVIE_NAME_GENRE",
         "comment": "",
         "columns": [
           {
-            "name": "UniqueID",
+            "name": "UNIQUE_ID",
             "comment": "",
             "dataType": "",
             "default": "",
@@ -62,7 +62,7 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 60,
+              "widthName": 68.87255859375,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -70,7 +70,7 @@
             "id": "042c1070-baaa-4387-899a-ad31c118a4ed"
           },
           {
-            "name": "영화 이름과 장르",
+            "name": "MOVIE_NAME_GENRE",
             "comment": "",
             "dataType": "",
             "default": "",
@@ -78,14 +78,14 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 102.140625,
+              "widthName": 131.111328125,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -97,19 +97,19 @@
           "active": false,
           "left": 26,
           "top": 48,
-          "zIndex": 114,
-          "widthName": 102.140625,
+          "zIndex": 65,
+          "widthName": 131.111328125,
           "widthComment": 60
         },
         "visible": true,
         "id": "598db806-5857-4fe7-a04d-3ca58443e1bc"
       },
       {
-        "name": "사용자들",
+        "name": "USERS",
         "comment": "",
         "columns": [
           {
-            "name": "이름",
+            "name": "NAME",
             "comment": "",
             "dataType": "",
             "default": "",
@@ -117,7 +117,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -132,7 +132,7 @@
             "id": "c81c8ca5-af1d-4ac8-ab03-38b93524c14e"
           },
           {
-            "name": "대여자UniqueID",
+            "name": "RENTER_UNIQUE_ID",
             "comment": "",
             "dataType": "",
             "default": "",
@@ -147,7 +147,7 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 95.9833984375,
+              "widthName": 120.59326171875,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -159,7 +159,7 @@
           "active": false,
           "left": 28,
           "top": 218,
-          "zIndex": 113,
+          "zIndex": 69,
           "widthName": 60,
           "widthComment": 60
         },
@@ -167,11 +167,11 @@
         "id": "406e79d0-cc4e-43cc-b02d-4c22b49a6017"
       },
       {
-        "name": "대여자",
+        "name": "RENTER",
         "comment": "",
         "columns": [
           {
-            "name": "UniqueID",
+            "name": "UNIQUE_ID",
             "comment": "",
             "dataType": "",
             "default": "",
@@ -186,7 +186,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 60,
+              "widthName": 68.87255859375,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -194,7 +194,7 @@
             "id": "749c565e-b0d4-4934-9a75-e0d98c3409ee"
           },
           {
-            "name": "대여자UniqueID",
+            "name": "RENTER_UNIQUE_ID",
             "comment": "",
             "dataType": "",
             "default": "",
@@ -209,7 +209,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 95.9833984375,
+              "widthName": 120.59326171875,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -218,10 +218,10 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 689,
           "top": 47,
-          "zIndex": 115,
+          "zIndex": 57,
           "widthName": 60,
           "widthComment": 60
         },
@@ -229,11 +229,11 @@
         "id": "1ce83a07-e888-45a2-98d8-60d20c199396"
       },
       {
-        "name": "포스터목록",
+        "name": "POSTER_LIST",
         "comment": "",
         "columns": [
           {
-            "name": "포스터",
+            "name": "POSTER",
             "comment": "",
             "dataType": "",
             "default": "",
@@ -241,7 +241,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -256,7 +256,7 @@
             "id": "fd1be3af-b3c4-4e85-9f03-29b4ae1cb26d"
           },
           {
-            "name": "포스터목록 대표값",
+            "name": "POSTER_LIST_UNIQUE_ID",
             "comment": "",
             "dataType": "",
             "default": "",
@@ -271,7 +271,7 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 110.5703125,
+              "widthName": 149.8115234375,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -283,19 +283,19 @@
           "active": false,
           "left": 24,
           "top": 436,
-          "zIndex": 110,
-          "widthName": 67,
+          "zIndex": 73,
+          "widthName": 77.40380859375,
           "widthComment": 60
         },
         "visible": true,
         "id": "daa13571-0ad1-4fe6-b748-2b0fbecd9f37"
       },
       {
-        "name": "포스터",
+        "name": "POSTER",
         "comment": "",
         "columns": [
           {
-            "name": "UniqueID",
+            "name": "UNIQUE_ID",
             "comment": "",
             "dataType": "",
             "default": "",
@@ -310,7 +310,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 60,
+              "widthName": 68.87255859375,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -318,7 +318,7 @@
             "id": "1b7f3192-a052-493f-8452-48c5e88928ef"
           },
           {
-            "name": "포스터목록 대표값",
+            "name": "POSTER_LIST_UNIQUE_ID",
             "comment": "",
             "dataType": "",
             "default": "",
@@ -333,7 +333,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 110.5703125,
+              "widthName": 149.8115234375,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -345,7 +345,7 @@
           "active": false,
           "left": 692,
           "top": 314,
-          "zIndex": 111,
+          "zIndex": 59,
           "widthName": 60,
           "widthComment": 60
         },
@@ -369,7 +369,7 @@
           "columnIds": [
             "042c1070-baaa-4387-899a-ad31c118a4ed"
           ],
-          "x": 415.140625,
+          "x": 444.111328125,
           "y": 75.5,
           "direction": "right"
         },
@@ -395,7 +395,7 @@
           "columnIds": [
             "1ee5ad92-a089-45b0-8c24-709a5a773d2a"
           ],
-          "x": 410.9833984375,
+          "x": 435.59326171875,
           "y": 273,
           "direction": "right"
         },
@@ -421,7 +421,7 @@
           "columnIds": [
             "042c1070-baaa-4387-899a-ad31c118a4ed"
           ],
-          "x": 415.140625,
+          "x": 444.111328125,
           "y": 130.5,
           "direction": "right"
         },
@@ -447,7 +447,7 @@
           "columnIds": [
             "013dfa37-9655-450f-bc0b-2be07eecde11"
           ],
-          "x": 421.5703125,
+          "x": 460.8115234375,
           "y": 491,
           "direction": "right"
         },
