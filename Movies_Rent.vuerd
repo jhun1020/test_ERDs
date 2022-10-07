@@ -3,7 +3,7 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": 0,
+    "scrollTop": -13,
     "scrollLeft": 0,
     "zoomLevel": 1,
     "show": {
@@ -49,7 +49,7 @@
           {
             "name": "UNIQUE_ID",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -72,7 +72,7 @@
           {
             "name": "MOVIE_NAME_GENRE",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -97,7 +97,7 @@
           "active": false,
           "left": 26,
           "top": 48,
-          "zIndex": 65,
+          "zIndex": 78,
           "widthName": 131.111328125,
           "widthComment": 60
         },
@@ -111,7 +111,7 @@
           {
             "name": "NAME",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -134,7 +134,7 @@
           {
             "name": "RENTER_UNIQUE_ID",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -159,7 +159,7 @@
           "active": false,
           "left": 28,
           "top": 218,
-          "zIndex": 69,
+          "zIndex": 82,
           "widthName": 60,
           "widthComment": 60
         },
@@ -173,7 +173,7 @@
           {
             "name": "UNIQUE_ID",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -196,7 +196,7 @@
           {
             "name": "RENTER_UNIQUE_ID",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -221,7 +221,7 @@
           "active": false,
           "left": 689,
           "top": 47,
-          "zIndex": 57,
+          "zIndex": 91,
           "widthName": 60,
           "widthComment": 60
         },
@@ -235,7 +235,7 @@
           {
             "name": "POSTER",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -258,7 +258,7 @@
           {
             "name": "POSTER_LIST_UNIQUE_ID",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -283,7 +283,7 @@
           "active": false,
           "left": 24,
           "top": 436,
-          "zIndex": 73,
+          "zIndex": 86,
           "widthName": 77.40380859375,
           "widthComment": 60
         },
@@ -297,7 +297,7 @@
           {
             "name": "UNIQUE_ID",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -320,7 +320,7 @@
           {
             "name": "POSTER_LIST_UNIQUE_ID",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,

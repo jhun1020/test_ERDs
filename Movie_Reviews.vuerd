@@ -4,8 +4,8 @@
     "width": 2000,
     "height": 2000,
     "scrollTop": 0,
-    "scrollLeft": -74,
-    "zoomLevel": 1,
+    "scrollLeft": 0,
+    "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -78,7 +78,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -101,7 +101,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -124,7 +124,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -147,7 +147,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -166,7 +166,7 @@
           "active": false,
           "left": 213,
           "top": 58,
-          "zIndex": 81,
+          "zIndex": 141,
           "widthName": 60,
           "widthComment": 60
         },
@@ -333,7 +333,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -352,7 +352,7 @@
           "active": false,
           "left": 216,
           "top": 275,
-          "zIndex": 129,
+          "zIndex": 143,
           "widthName": 114.4169921875,
           "widthComment": 60
         },
@@ -395,7 +395,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -414,7 +414,7 @@
           "active": false,
           "left": 225,
           "top": 412,
-          "zIndex": 131,
+          "zIndex": 145,
           "widthName": 60,
           "widthComment": 60
         },
