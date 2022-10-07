@@ -4,7 +4,7 @@
     "width": 2000,
     "height": 2000,
     "scrollTop": 0,
-    "scrollLeft": -1,
+    "scrollLeft": 0,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -96,8 +96,8 @@
         "ui": {
           "active": false,
           "left": 26,
-          "top": 50,
-          "zIndex": 109,
+          "top": 48,
+          "zIndex": 114,
           "widthName": 102.140625,
           "widthComment": 60
         },
@@ -157,9 +157,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 25,
-          "top": 210,
-          "zIndex": 108,
+          "left": 28,
+          "top": 218,
+          "zIndex": 113,
           "widthName": 60,
           "widthComment": 60
         },
@@ -218,10 +218,10 @@
           }
         ],
         "ui": {
-          "active": false,
-          "left": 688,
-          "top": 55,
-          "zIndex": 104,
+          "active": true,
+          "left": 689,
+          "top": 47,
+          "zIndex": 115,
           "widthName": 60,
           "widthComment": 60
         },
@@ -342,7 +342,7 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 692,
           "top": 314,
           "zIndex": 111,
@@ -370,7 +370,7 @@
             "042c1070-baaa-4387-899a-ad31c118a4ed"
           ],
           "x": 415.140625,
-          "y": 77.5,
+          "y": 75.5,
           "direction": "right"
         },
         "end": {
@@ -378,8 +378,8 @@
           "columnIds": [
             "749c565e-b0d4-4934-9a75-e0d98c3409ee"
           ],
-          "x": 688,
-          "y": 82.5,
+          "x": 689,
+          "y": 74.5,
           "direction": "left"
         },
         "constraintName": "fk_영화 이름과 장르_to_대여자",
@@ -395,8 +395,8 @@
           "columnIds": [
             "1ee5ad92-a089-45b0-8c24-709a5a773d2a"
           ],
-          "x": 407.9833984375,
-          "y": 265,
+          "x": 410.9833984375,
+          "y": 273,
           "direction": "right"
         },
         "end": {
@@ -404,8 +404,8 @@
           "columnIds": [
             "c2980781-78b4-449d-838e-2947b74df156"
           ],
-          "x": 688,
-          "y": 137.5,
+          "x": 689,
+          "y": 129.5,
           "direction": "left"
         },
         "constraintName": "fk_사용자들_to_대여자",
@@ -422,7 +422,7 @@
             "042c1070-baaa-4387-899a-ad31c118a4ed"
           ],
           "x": 415.140625,
-          "y": 132.5,
+          "y": 130.5,
           "direction": "right"
         },
         "end": {
