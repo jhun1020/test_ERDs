@@ -49,7 +49,7 @@
           {
             "name": "UNIQUE_ID",
             "comment": "대표값",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -64,7 +64,7 @@
               "pfk": false,
               "widthName": 68.87255859375,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "8d4b5294-bc06-4127-a224-0aff0c70ce35"
@@ -72,13 +72,13 @@
           {
             "name": "NAME",
             "comment": "이름",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -87,7 +87,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "9c4b94a1-4ce6-461d-bbe7-b47f936f5787"
@@ -95,13 +95,13 @@
           {
             "name": "EMAIL",
             "comment": "이메일",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -110,7 +110,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "9b8e515f-917d-403d-b19e-5bff01a414a3"
@@ -118,7 +118,7 @@
           {
             "name": "JOB",
             "comment": "직책",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -133,7 +133,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "a557a6e4-596c-4608-b59e-55a4f4442572"
@@ -143,7 +143,7 @@
           "active": false,
           "left": 38,
           "top": 56,
-          "zIndex": 58,
+          "zIndex": 120,
           "widthName": 60,
           "widthComment": 60
         },
@@ -157,13 +157,13 @@
           {
             "name": "AUTH_NAME",
             "comment": "접근권한",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -172,7 +172,7 @@
               "pfk": false,
               "widthName": 78.54638671875,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "08b39340-08b6-4219-bf39-38bd4ae3e9fa"
@@ -180,7 +180,7 @@
           {
             "name": "UNIQUE_ID",
             "comment": "접근권한 대표값",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -195,17 +195,17 @@
               "pfk": false,
               "widthName": 68.87255859375,
               "widthComment": 97.5703125,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "f140fc94-53e0-41c9-ae50-628af8443960"
           }
         ],
         "ui": {
-          "active": false,
+          "active": true,
           "left": 25,
           "top": 296,
-          "zIndex": 60,
+          "zIndex": 122,
           "widthName": 85.60498046875,
           "widthComment": 67
         },
@@ -219,7 +219,7 @@
           {
             "name": "UNIQUE_ID_USERS",
             "comment": "대표값",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -234,7 +234,7 @@
               "pfk": false,
               "widthName": 112.3095703125,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "03c86c75-ef2f-41bf-bfae-7899659b639a"
@@ -242,7 +242,7 @@
           {
             "name": "UNIQUE_ID_AUTH_NAMES",
             "comment": "접근권한 대표값",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -257,7 +257,7 @@
               "pfk": false,
               "widthName": 158.0126953125,
               "widthComment": 97.5703125,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "9f21d6a3-30d4-44d4-a1d7-c7db276cb5be"
@@ -291,7 +291,7 @@
           "columnIds": [
             "8d4b5294-bc06-4127-a224-0aff0c70ce35"
           ],
-          "x": 393.87255859375,
+          "x": 423.16552734375,
           "y": 131.5,
           "direction": "right"
         },
@@ -317,7 +317,7 @@
           "columnIds": [
             "f140fc94-53e0-41c9-ae50-628af8443960"
           ],
-          "x": 428.11669921875,
+          "x": 457.40966796875,
           "y": 351,
           "direction": "right"
         },
