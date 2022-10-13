@@ -4,3 +4,4 @@
 - [users prac](https://github.com/jhun1020/test_ERDs/tree/master/prac_erd/Users)
 ## 2022.10.12 Good_Influence
 - [influence prac](https://github.com/jhun1020/test_ERDs/tree/master/prac_erd/Influence)
+- [self_reference prac](https://github.com/jhun1020/test_ERDs/tree/master/prac_erd/Self_reference)
