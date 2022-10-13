@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": 0,
-    "scrollLeft": 0,
+    "scrollTop": -3,
+    "scrollLeft": -5,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -43,36 +43,13 @@
   "table": {
     "tables": [
       {
-        "name": "",
-        "comment": "",
+        "name": "ORGANIZATION",
+        "comment": "조직도",
         "columns": [
           {
-            "name": "부서명",
-            "comment": "",
-            "dataType": "",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "9376884d-8f13-4ef3-8090-c80a2b745643"
-          },
-          {
-            "name": "대표값",
-            "comment": "",
-            "dataType": "",
+            "name": "UNIQUE_ID",
+            "comment": "대표값",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -85,17 +62,40 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 60,
+              "widthName": 68.87255859375,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
-            "id": "541ffd4b-5722-4a61-bb86-28641729377f"
+            "id": "9164024a-58d0-4cc3-824f-867238baa5cf"
           },
           {
-            "name": "상위대표값",
-            "comment": "",
-            "dataType": "",
+            "name": "DEPARTMENT",
+            "comment": "부서명",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 82.970703125,
+              "widthComment": 60,
+              "widthDataType": 89.29296875,
+              "widthDefault": 60
+            },
+            "id": "d8bdb032-b6b9-4dba-b1dd-8f41a66c7bca"
+          },
+          {
+            "name": "UNIQUE_ID_PARENT",
+            "comment": "상대표값",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -108,24 +108,25 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 67,
+              "widthName": 120.83447265625,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
-            "id": "860ce1a2-cb57-45b3-8e5a-edc262c76dab"
+            "id": "7c4ba0d1-bfb8-4b69-b39b-6531b7154764"
           }
         ],
         "ui": {
           "active": false,
-          "left": 20,
-          "top": 88,
-          "zIndex": 13,
-          "widthName": 60,
-          "widthComment": 60
+          "left": 28,
+          "top": 76,
+          "zIndex": 1,
+          "widthName": 96.4912109375,
+          "widthComment": 60,
+          "color": "#C09696"
         },
         "visible": true,
-        "id": "a5b39b3c-b0d1-4760-bce4-2a31839a22d3"
+        "id": "d7c44b03-a138-44fc-b71c-d920cacd8b5c"
       }
     ],
     "indexes": []
@@ -140,26 +141,26 @@
         "relationshipType": "OneN",
         "startRelationshipType": "Dash",
         "start": {
-          "tableId": "a5b39b3c-b0d1-4760-bce4-2a31839a22d3",
+          "tableId": "d7c44b03-a138-44fc-b71c-d920cacd8b5c",
           "columnIds": [
-            "541ffd4b-5722-4a61-bb86-28641729377f"
+            "9164024a-58d0-4cc3-824f-867238baa5cf"
           ],
-          "x": 354,
-          "y": 88,
+          "x": 445.12744140625,
+          "y": 76,
           "direction": "top"
         },
         "end": {
-          "tableId": "a5b39b3c-b0d1-4760-bce4-2a31839a22d3",
+          "tableId": "d7c44b03-a138-44fc-b71c-d920cacd8b5c",
           "columnIds": [
-            "860ce1a2-cb57-45b3-8e5a-edc262c76dab"
+            "7c4ba0d1-bfb8-4b69-b39b-6531b7154764"
           ],
-          "x": 374,
-          "y": 108,
+          "x": 465.12744140625,
+          "y": 96,
           "direction": "right"
         },
-        "constraintName": "fk__to_",
+        "constraintName": "fk_organization_to_organization",
         "visible": true,
-        "id": "4c99a761-375f-4488-b40f-8c8bdaeaa872"
+        "id": "12b48cbe-5c5a-4484-ac60-d47185ba2df6"
       }
     ]
   }
