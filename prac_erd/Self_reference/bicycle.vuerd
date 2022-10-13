@@ -48,8 +48,8 @@
         "columns": [
           {
             "name": "MATERIALS",
-            "comment": "",
-            "dataType": "",
+            "comment": "부품",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -64,15 +64,15 @@
               "pfk": false,
               "widthName": 68.421875,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "5b689edf-dc63-4b1e-9e87-eb1d88ea5cf7"
           },
           {
             "name": "UNIQUE_ID",
-            "comment": "",
-            "dataType": "",
+            "comment": "대표값",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -87,15 +87,15 @@
               "pfk": false,
               "widthName": 68.87255859375,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "d44cddcd-cf5b-48c4-b0ca-2403160af4d7"
           },
           {
-            "name": "UNIQUE_ID_PARENT",
-            "comment": "",
-            "dataType": "",
+            "name": "UNIQUE_ID_CHILD",
+            "comment": "하위대표값",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -108,9 +108,9 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 120.83447265625,
-              "widthComment": 60,
-              "widthDataType": 60,
+              "widthName": 111.154296875,
+              "widthComment": 67,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "f7890142-9f4a-4476-a5ee-a1b36877e974"
@@ -120,7 +120,7 @@
           "active": false,
           "left": 15,
           "top": 94,
-          "zIndex": 22,
+          "zIndex": 44,
           "widthName": 84.671875,
           "widthComment": 60
         },
@@ -144,7 +144,7 @@
           "columnIds": [
             "d44cddcd-cf5b-48c4-b0ca-2403160af4d7"
           ],
-          "x": 402.83447265625,
+          "x": 429.447265625,
           "y": 94,
           "direction": "top"
         },
@@ -153,7 +153,7 @@
           "columnIds": [
             "f7890142-9f4a-4476-a5ee-a1b36877e974"
           ],
-          "x": 422.83447265625,
+          "x": 449.447265625,
           "y": 114,
           "direction": "right"
         },
