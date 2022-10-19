@@ -1,0 +1,50 @@
+-- 회원 가입 절차 (새 회원 추가)
+INSERT INTO users(UNIQUE_ID, NAME, EMAIL, JOB)
+VALUE('U1', 'Paul', 'paul01@gmail.com', 'IT Billing');
+INSERT INTO users(UNIQUE_ID, NAME, EMAIL, JOB)
+VALUE('U2', 'Allen', 'texas@imfblog.org', 'Engineering');
+INSERT INTO users(UNIQUE_ID, NAME, EMAIL, JOB)
+VALUE('U3', 'Teddy', 'norway@iotm.com', 'IT Billing');
+INSERT INTO users(UNIQUE_ID, NAME, EMAIL, JOB)
+VALUE('U4', 'Paul', 'paul_p@naver.com', 'Developer');
+
+-- 권한들
+INSERT INTO auths(UNIQUE_ID_USERS, UNIQUE_ID_AUTH_NAMES)
+VALUE('U1', 'B1');
+INSERT INTO auths(UNIQUE_ID_USERS, UNIQUE_ID_AUTH_NAMES)
+VALUE('U1', 'B2');
+INSERT INTO auths(UNIQUE_ID_USERS, UNIQUE_ID_AUTH_NAMES)
+VALUE('U2', 'B1');
+INSERT INTO auths(UNIQUE_ID_USERS, UNIQUE_ID_AUTH_NAMES)
+VALUE('U2', 'B2');
+INSERT INTO auths(UNIQUE_ID_USERS, UNIQUE_ID_AUTH_NAMES)
+VALUE('U2', 'B3');
+INSERT INTO auths(UNIQUE_ID_USERS, UNIQUE_ID_AUTH_NAMES)
+VALUE('U3', 'B1');
+INSERT INTO auths(UNIQUE_ID_USERS, UNIQUE_ID_AUTH_NAMES)
+VALUE('U4', 'B1');
+INSERT INTO auths(UNIQUE_ID_USERS, UNIQUE_ID_AUTH_NAMES)
+VALUE('U4', 'B2');
+
+-- 회원 탈퇴
+-- -- DELETE FROM table_name WHERE condition;
+DELETE FROM auths
+WHERE UNIQUE_ID_USERS = 'U1';
+DELETE FROM users 
+WHERE UNIQUE_ID = 'U1'; 	 -- 이것만 DELETE하면 오류 발생    엮인 곳을 풀어줘야함
+
+DELETE FROM auths
+WHERE UNIQUE_ID_USERS = 'U3';
+DELETE FROM users
+WHERE UNIQUE_ID = 'U3';
+;
+
+
+SELECT *
+FROM users;
+
+SELECT *
+FROM auths;
+
+SELECT *
+FROM auth_names;
