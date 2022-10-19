@@ -5,6 +5,6 @@
 ## 2022.10.12 Good_Influence
 - [influence prac](https://github.com/jhun1020/test_ERDs/tree/master/prac_erd/Influence)
 ## 10.13 
-- [aaa](https://github.com/jhun1020/test_ERDs/tree/master/prac_erd/Self_reference)
+- [bicycle](https://github.com/jhun1020/test_ERDs/tree/master/prac_erd/Self_reference)
 ## 10.19 
 - [Users_Auths_query](https://github.com/jhun1020/test_ERDs/blob/master/prac_erd/Users/Users_Auths_query.sql)
