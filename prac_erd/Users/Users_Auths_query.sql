@@ -1,4 +1,4 @@
--- users 회원
+-- users 회원가입
 INSERT INTO users(UNIQUE_ID, NAME, EMAIL, JOB)
 VALUE ('U1', 'Paul', 'paul01@gmail.com', 'IT Billing')
 ;
@@ -23,7 +23,7 @@ INSERT auth_names(AUTH_NAME, UNIQUE_ID)
 VALUE ('MANAGER', 'B3')
 ;
 
--- 대표값
+-- 접근권한들
 INSERT auths(UNIQUE_ID_USERS, UNIQUE_ID_AUTH_NAMES)
 VALUE ('U1', 'B1')
 ;
