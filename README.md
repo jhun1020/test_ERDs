@@ -11,3 +11,4 @@
 ## 10.20
 - [Products_CategoryID](./prac_erd/Products_w3school/Products_CategoryID.sql)
 - [Product_Quantity](./prac_erd/w3school/Product_Quantoty.sql)
+- [Users_Auth_names INNER JOIN](./prac_erd/Users/Users_Auth_names.sql)
