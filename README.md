@@ -6,3 +6,5 @@
 - [influence prac](https://github.com/jhun1020/test_ERDs/tree/master/prac_erd/Influence)
 ## 10.13 
 - [aaa](https://github.com/jhun1020/test_ERDs/tree/master/prac_erd/Self_reference)
+## 10.20
+- [Products_CategoryID](./prac_erd/Products_CategoryID.sql)
