@@ -10,3 +10,4 @@
 - [Users_Auths_query](https://github.com/jhun1020/test_ERDs/blob/master/prac_erd/Users/Users_Auths_query.sql)
 ## 10.20
 - [Products_CategoryID](./prac_erd/Products_w3school/Products_CategoryID.sql)
+- [Product_Quantoty](./prac_erd/w3school/Product_Quantoty.sql)
