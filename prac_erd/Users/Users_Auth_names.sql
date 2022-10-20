@@ -7,3 +7,8 @@ ON auth_names.UNIQUE_ID = auths.UNIQUE_ID_AUTH_NAMES)
     ON auths.UNIQUE_ID_USERS = users.UNIQUE_ID
     AND NAME IN ('Teddy', 'Allen')
 ;
+
+-- Allen	texas@imfblog.org	GUEST
+-- Allen	texas@imfblog.org	ADMIN
+-- Allen	texas@imfblog.org	MANAGER
+-- Teddy	norway@iotm.com	    GUEST
