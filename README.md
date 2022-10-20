@@ -8,3 +8,5 @@
 - [bicycle](https://github.com/jhun1020/test_ERDs/tree/master/prac_erd/Self_reference)
 ## 10.19 
 - [Users_Auths_query](https://github.com/jhun1020/test_ERDs/blob/master/prac_erd/Users/Users_Auths_query.sql)
+## 10.20
+- [Products_CategoryID](./prac_erd/Products_w3school/Products_CategoryID.sql)
